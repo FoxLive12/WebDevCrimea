@@ -1,0 +1,143 @@
+@import url('https://fonts.googleapis.com/css2?family=Sora:wght@300;600&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    font-family: 'SORA', sans-serif;
+    color: black;
+    text-decoration: none;
+}
+
+body {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    width: 100%;
+}
+
+header {
+    width: 1440px;
+}
+
+.nav{
+    display: flex;
+    flex-grow: 1;
+    align-items: center;
+    justify-content: center;
+    margin-top: 25px;
+    padding-left: 95px;
+    padding-right: 95px;
+}
+
+.nav-logo {
+    display: flex;
+    align-items: center;
+    font-size: 36px;
+    font-weight: bold;
+    margin-right: auto;
+}
+
+.nav-logo-img {
+    margin-right: 17px;
+}
+
+.nav-menu {
+    font-size: 20px;
+    font-weight: bold;
+}
+
+.nav-menu ul {
+    display: flex;
+    list-style-type: none;
+}
+
+.nav-menu ul li {
+    margin-right: 32px;
+}
+
+.nav-contacts {
+    margin-left: auto;
+}
+
+.nav-contacts-item {
+    display: flex;
+    padding: 7px;
+    font-weight: bold;
+}
+
+.nav-contacts-item img {
+    margin-right: 7px;
+}
+
+.content {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    width: 1440px;
+}
+
+.hero-section {
+    position: relative;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    margin-top: 70px;
+}
+
+.hero-text-container {
+    position: absolute;
+    width: 600px;
+    margin-right: auto;
+    margin-left: 135px;
+    left: 0;
+}
+
+.hero-text-title {
+    color: #ffffff;
+    -webkit-text-stroke: 2px #000000;
+    font-size: 50px;
+    font-weight: 700;
+}
+
+.hero-text-subtitle {
+    margin-top: 20px;
+    font-size: 32px;
+}
+
+.hero-text-description {
+    text-align: left;
+    color: #71717A;
+    font-size: 16px;
+    margin-top: 32px;
+}
+
+.hero-img-container {
+    margin-left: auto;
+    margin-right: 95px;
+}
+
+.button-link-item {
+    display: table-cell;
+    border: #000000 2px solid;
+    border-radius: 10%;
+    padding: 13px;
+}
+
+.button-link {
+    display: flex;
+    margin-top: 100px;
+    margin-left: 86px;
+}
+
+.button-link div {
+    margin-right: 32px;
+}
+
+.button-link-item img {
+    display:block;
+    margin: auto;
+}
