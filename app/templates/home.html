@@ -16,10 +16,10 @@
                 </p>
             </div>
             <ul class="nav-menu">
-                <li><a href="#">О нас</a></li>
-                <li><a href="#">Навыки</a></li>
-                <li><a href="#">Проекты</a></li>
-                <li><a href="#">Контакты</a></li>
+                <li><a href="#about-us">О нас</a></li>
+                <li><a href="#skills">Навыки</a></li>
+                <li><a href="#projects">Проекты</a></li>
+                <li><a href="#contact">Контакты</a></li>
             </ul>
             <div class="nav-contacts" id="nav-contacts">
                 <div class="nav-contacts-item" id="nav-contacts-item">
@@ -43,7 +43,7 @@
                 <div class="offer-description">
                     <span>В WebDevCrimea мы гордимся тем, что создаем инновационные решения, которые преображают ваш бизнес. Наша команда разработчиков стремится к воплощению ваших идей в эффективные и мощные веб-приложения. Мы не просто пишем код – мы создаем цифровые продукты, которые выделяют вас на рынке.</span>
                 </div>
-                <div class="offer-button-link">
+                <div class="offer-button-link" style="margin: 29px;">
                     <div><a href="#" class="button-link-item"><img src="../static/images/telegram.svg"></a></div>
                     <div><a href="#" class="button-link-item"><img src="../static/images/google.svg"></a></div>
                     <div><a href="#" class="button-link-item"><img src="../static/images/instagram.svg"></a></div>
@@ -101,6 +101,27 @@
                     <img src="../static/images/kotlin.svg">
                     <p>Kotlin</p>
                 </div>
+                <div class="tile-item">
+                    <img src="../static/images/kotlin.svg">
+                    <p>Kotlin</p>
+                </div>
+                <div class="tile-item">
+                    <img src="../static/images/kotlin.svg">
+                    <p>Kotlin</p>
+                </div>
+                <div class="tile-item">
+                    <img src="../static/images/kotlin.svg">
+                    <p>Kotlin</p>
+                </div>
+                <div class="tile-item">
+                    <img src="../static/images/kotlin.svg">
+                    <p>Kotlin</p>
+                </div>
+                <div class="tile-item">
+                    <img src="../static/images/kotlin.svg">
+                    <p>Kotlin</p>
+                </div>
+
             </div>
         </div>
     </section>
@@ -232,23 +253,43 @@
         </div>
     </section>
     <section class="contact" id="contact">
-        <div class="container">
+        <div class="container" style="margin-top: 80px;">
             <div class="contact-form">
-                    <form action="post" class="contact-form-form">
-                        <input type="text" name="" id=""><br>
-                        <input type="email"><br>
-                        <input type="url"><br>
-                        <textarea name="" id="" cols="30" rows="10"></textarea><br>
-    
+                    <form action="" method="post" class="contact-form-form" id="contact-form-form">
+                        <input type="text" name="" id="" placeholder="Ваше имя" class="form-input"><br>
+                        <input type="email" placeholder="Email" class="form-input"><br>
+                        <input type="url" placeholder="Ваш сайт (если есть)" class="form-input"><br>
+                        <textarea name="" id="" cols="30" rows="10" placeholder="Чем мы можем вам помочь?*"></textarea><br>
+                        <div class="bttn-container">
+                            <input type="submit" value="Отправить" class="submit-bttn">     
+                            <div class="offer-button-link">
+                                <div><a href="#" class="button-link-item"><img src="../static/images/telegram.svg"></a></div>
+                                <div><a href="#" class="button-link-item"><img src="../static/images/google.svg"></a></div>
+                                <div><a href="#" class="button-link-item"><img src="../static/images/instagram.svg"></a></div>
+                                <div><a href="#" class="button-link-item"><img src="../static/images/avito.svg"></a></div>
+                            </div>
+                        </div>
                     </form>
                     <div class="contact-description">
-                        <p>Обратная связь</p>
-                        <p>Ваш голос важен для нас</p>
-                        <p>Мы ценим ваше мнение и стремимся сделать наше сотрудничество максимально комфортным и продуктивным. Пожалуйста, поделитесь вашими мыслями, вопросами или предложениями, заполнив форму обратной связи.</p>
-
+                        <p class="contact-description-title">Обратная связь</p>
+                        <p class="contact-description-subtitle">Ваш голос важен для нас</p>
+                        <p class="contact-description-descr">Мы ценим ваше мнение и стремимся сделать наше сотрудничество максимально комфортным и продуктивным. Пожалуйста, поделитесь вашими мыслями, вопросами или предложениями, заполнив форму обратной связи.</p>
+                        <div class="nav-contacts" id="nav-contacts" style="margin-top: 40px; font-size: 20px; font-weight: 600;">
+                            <div class="nav-contacts-item" id="nav-contacts-item">
+                                <img src="../static/images/phone.svg">
+                                <a href="#">+7 (978) 852-96-96</a>
+                            </div>
+                            <div class="nav-contacts-item" id="nav-contacts-item">
+                                <img src="../static/images/mail.svg">
+                                <a href="#">webdevcrimea@gmail.com</a>
+                            </div>
+                        </div>
                     </div>
             </div>
         </div>
     </section>
+    <footer class="footer" id="footer">
+        <img src="../static/images/logo(white).svg"> WDC
+    </footer>
 </body>
 </html>

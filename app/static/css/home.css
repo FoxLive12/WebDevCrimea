@@ -9,6 +9,10 @@
     font-style: normal;
 }
 
+html {
+    scroll-behavior: smooth;
+}
+
 a {
     text-decoration: none;
 }
@@ -118,7 +122,6 @@ header {
 
 .offer-button-link {
     display: flex;
-    margin: 29px;
 }
 
 .offer-button-link div {
@@ -434,17 +437,29 @@ header {
 
 .contact-form {
     display: flex;
-    align-items: center;
-    justify-content: center;
+    padding-left: 80px;
+    padding-right: 80px;
 }
 
 .contact-form-form {
     display: flex;
     flex-direction: column;
     width: 700px;
+    margin-right: 130px;
 }
 
-.contact-form-form input {
+/* .contact-form-form input {
+    border: 2px solid #000;
+    border-radius: 5px;
+    padding: 5px;
+    height: 30px;
+} */
+
+section {
+    scroll-margin-top: 50px;
+}
+
+.form-input {
     border: 2px solid #000;
     border-radius: 5px;
     padding: 5px;
@@ -454,5 +469,69 @@ header {
 .contact-form-form textarea {
     border: 2px solid #000;
     border-radius: 5px;
-    padding: 5px;
+    padding: 10px;
+    resize: none;
+}
+
+.contact-description {
+    width: 600px;
+}
+
+.contact-description-title {
+    font-size: 48px;
+    font-weight: 700;
+}
+
+.contact-description {
+    text-align: left;
+}
+
+.contact-description-subtitle {
+    font-size: 32px;
+    font-weight: 700;
+    margin-top: 15px;
+    -webkit-text-stroke: 2px #000;
+    color: #fff;
+}
+
+.contact-description-descr {
+    font-size: 16px;
+    color: #71717A;
+    margin-top: 20px;
+}
+
+.bttn-container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.submit-bttn {
+    padding: 16px 20px 16px 20px;
+    background-color: #000;
+    color: #fff;
+    font-size: 20px;
+    border: none;
+    border-radius: 5px;
+    margin-right: 24px;
+    cursor: pointer;
+}
+
+.footer {
+    background-color: #000;
+    width: 75%;
+    margin: auto;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: #fff;
+    font-size: 22px;
+    font-weight: 700;
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+
+.footer img{
+    fill: #fff;
+    margin-right: 17px;
 }
